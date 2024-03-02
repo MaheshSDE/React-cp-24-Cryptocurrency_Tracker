@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.crypto-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usd-euro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.crypto-image {
+  height: 30px;
+  width: 30px;
+}
+
+.cryptoType-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.usd-value {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.euro-value {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  padding-left: 10px;
+}
